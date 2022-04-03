@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: lightblue; */
+}
+
+.header-title {
+    color: #1e90c2;
+    font-size: 30px;
+    
+}
+
+.link a {
+    text-decoration: none;
+    color: #1e90c2;
+    margin-left: 15px;
+    font-size: 20px;
+    transition: color ease-in-out 300ms;
+
+
+}
+
+.link a:hover {
+    color: #1b4388;
+    
+}
+
+/* .active-link a {
+    text-decoration: none;
+    color: #1b4388;
+    margin-left: 15px;
+    font-size: 20px;
+    transition: color ease-in-out 300ms;
+    
+} */
