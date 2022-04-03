@@ -4,6 +4,20 @@
     justify-content: space-around;
     margin-top: 70px;
 }
+.product-detail{
+   width: 40%;
+}
+.product-detail p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.product-detail h1{
+    font-size: 70px;
+    text-shadow: 5px 5px 10px rgb(39, 36, 36);
+}
+.product-title{
+    color: rgb(0, 132, 255);
+}
 
 .product-img img{
     width: 450px;
