@@ -6,7 +6,7 @@ const Review = (props) => {
     const {name,reviews,ratings}=props.review
     return (
         <div className='review'>
-           <h3>Name:{name}</h3>
+           <h3>Review by:<span>{name}</span></h3>
            <p><span>Review:</span>{reviews}</p>
            <p><small><span>ratings:</span>{ratings}</small></p> 
         </div>

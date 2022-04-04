@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useReview from '../../hooks/useReview';
 import image from '../../utilities/laptop.jpg'
 import Review from '../Review/Review';
@@ -6,7 +7,7 @@ import './Home.css'
 
 const Home = () => {
 
-    const [reviews, setReviews] = useReview()
+    const [reviews] = useReview()
 
     return (
         <div>
@@ -30,7 +31,7 @@ const Home = () => {
                     ></Review>)
                 }
               </div>
-              <button>See All Reviews</button>
+              <Link className='see-all-btn' to={'/reviews'}>See All Reviews</Link>
             </div>
         </div>
     );

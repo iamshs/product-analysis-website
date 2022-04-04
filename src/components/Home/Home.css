@@ -28,6 +28,7 @@
     margin-top: 70px;
     margin-left: 40px;
     margin-right: 40px;
+    margin-bottom: 30px;
    
 }
 
@@ -41,4 +42,20 @@
     grid-template-columns: repeat(3,1fr);
    
     grid-gap:30px
+}
+.see-all-btn{
+    background-color: #799ad1;
+    border: none;
+    padding: 20px 30px;
+    margin: 40px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 15px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.see-all-btn:hover{
+    background-color: #3f77d6;
+    
 }

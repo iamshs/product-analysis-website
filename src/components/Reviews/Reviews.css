@@ -1,0 +1,20 @@
+.reviews-conatiner{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.reviews{
+    text-align: start;
+    padding: 20px;
+    margin: 30px 40px;
+    border-radius: 10px;
+    background-color: #f1f5f8;
+    border: #f1f5f8 1px solid;
+    box-shadow: inset;
+
+}
+.reviews p{
+    margin-bottom: 0;
+    font-weight: 500;
+    
+}
