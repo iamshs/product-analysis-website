@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 import useReview from '../../hooks/useReview';
 import image from '../../utilities/laptop.jpg'
 import Review from '../Review/Review';

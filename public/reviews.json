@@ -1,31 +1,31 @@
 [{
-    "id": 1,
-    "name": "Asher",
-    "ratings": 4.6,
-    "reviews": "curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla"
-  }, {
-    "id": 2,
-    "name": "Matty",
-    "ratings": 4.8,
-    "reviews": "mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit"
-  }, {
-    "id": 3,
-    "name": "Haywood",
-    "ratings": 5.0,
-    "reviews": "etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id"
-  }, {
-    "id": 4,
-    "name": "Anitra",
-    "ratings": 4.2,
-    "reviews": "nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat"
-  }, {
-    "id": 5,
-    "name": "Desiri",
-    "ratings": 5.0,
-    "reviews": "justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum"
-  }, {
-    "id": 6,
-    "name": "Riley",
-    "ratings": 4.2,
-    "reviews": "porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc"
-  }]
+  "id": 1,
+  "name": "Asher",
+  "ratings": 4.6,
+  "reviews": "The has great processing power, nice screen, speedy graphics and can be a desktop replacement as well as occasional tablet. The pen works well and charges quickly...."
+}, {
+  "id": 2,
+  "name": "Matty",
+  "ratings": 4.8,
+  "reviews": "This is a stunning laptop, but unfortunately came with issue right out of the box. It booted out of the box to a blue error screen, and has consistently had issues despite updating all required drivers and a new install of Windows 10. It’ll have to be sent in for repair..."
+}, {
+  "id": 3,
+  "name": "Haywood",
+  "ratings": 5.0,
+  "reviews": "This was my first pc with windows 11 and I really like it. My previous hp had the power button on the side. I like this location to the right of the numbers better."
+}, {
+  "id": 4,
+  "name": "Anitra",
+  "ratings": 4.2,
+  "reviews": "This product has been performing well since I got it. It can even perform very light gaming. As with my last Spectre, I am immensely satisfied with the polish and feel of the laptop. However, be aware of the potential dangers of burn-in if you opt for the OLED model."
+}, {
+  "id": 5,
+  "name": "Desiri",
+  "ratings": 5.0,
+  "reviews": "The laptop is much better than any video, the 3:2 ratio is a huge plus for productivity."
+}, {
+  "id": 6,
+  "name": "Riley",
+  "ratings": 4.2,
+  "reviews": "The laptop is much better than any video, the 3:2 ratio is a huge plus for productivity."
+}]

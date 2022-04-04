@@ -45,7 +45,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
    
-    grid-gap:30px
+    grid-gap:40px
 }
 .see-all-btn{
     background-color: #799ad1;
