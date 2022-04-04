@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import useReview from '../../hooks/useReview';
 import image from '../../utilities/laptop.jpg'
 import Review from '../Review/Review';
@@ -8,6 +8,7 @@ import './Home.css'
 const Home = () => {
 
     const [reviews] = useReview()
+    const navigate =useNavigate()
 
     return (
         <div>
@@ -23,16 +24,17 @@ const Home = () => {
             <div className="review-container">
                 <h1>What Our Customer Says</h1>
 
-              <div className="review-details">
-              {
-                    reviews.map(review => <Review
-                        key={review.id}
-                        review={review}
-                    ></Review>)
-                }
-              </div>
-              <Link className='see-all-btn' to={'/reviews'}>See All Reviews</Link>
+                <div className="review-details">
+                    {
+                        reviews.slice(0,3).map(review => <Review
+                            key={review.id}
+                            review={review}
+                        ></Review>)
+                    }
+                </div>
+                <button className='see-all-btn' onClick={()=>navigate('/reviews')}>See All Reviews</button>
             </div>
+
         </div>
     );
 };
