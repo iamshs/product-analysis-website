@@ -1,5 +1,5 @@
 # My Project is BIG brand reviews
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://playful-zabaione-cf1852.netlify.app/).
 
 ## It is an single page application showing product review
 
