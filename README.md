@@ -1,11 +1,10 @@
-# Getting Started with Create React App
+# My Project is BIG brand reviews
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project was bootstrapped with [BIG brand reviews](https://github.com/facebook/create-react-app).
+## It is an single page application showing product review
 
-## Single page application
+### For style used vanilla css
 
-### Used React Route v6
+### For showing chart used Recharts
 
-#### For style used Vanilla CSS
-
-##### For Showing Chart used Rechats
+#### For Routing used React Router v6
