@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './Review.css'
 
@@ -8,7 +9,7 @@ const Review = (props) => {
         <div className='review'>
            <h3>Review by:<span>{name}</span></h3>
            <p><span>Review:</span>{reviews}</p>
-           <p><small><span>ratings:</span>{ratings}</small></p> 
+           <p>ratings: {ratings} star</p> 
         </div>
     );
 };

@@ -15,7 +15,7 @@ const Home = () => {
             <div className='product-container'>
                 <div className="product-detail">
                     <h1 >Buying the <span className='product-title'>BEST ONE!!</span></h1>
-                    <p>Now available with an OLED screen, an 8TB SSD, and Intel "Tiger Lake-H" processing, the Dell XPS 15 is our top pick among premium desktop-replacement laptops.</p>
+                    <p>The 15s-du1115TU powered by Intel Celeron N4020 (1.1 GHz up to 2.8 GHz, 2 cores) with Intel UHD Graphics 600. This Hp 15s series laptop comes with micro-edge display, the barely visible bezel revolutionizes your display by letting a larger screen fit into a smaller frame, that is featured with 15.6" diagonal, HD (1366 x 768), micro-edge, BrightView, 220 nits, 45% NTSC Display....</p>
                 </div>
                 <div className="product-img">
                     <img src={image} alt="" />

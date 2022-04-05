@@ -1,0 +1,20 @@
+.blogs{
+    display: block;
+    margin: 40px;
+}
+
+.blogs h2 {
+    text-align: start;
+    color: rgb(52, 62, 202);
+}
+
+.blogs p {
+    text-align: start;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.blogs span {
+    font-weight: 700;
+    color: rgb(223, 38, 38);
+}

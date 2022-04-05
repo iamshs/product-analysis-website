@@ -22,12 +22,10 @@
 .product-img img{
     width: 450px;
     height: 400px;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 
-.product-img img:hover{
-    transition: ease-in-out rotate;
-}
+
 .review-container{
     margin-top: 70px;
     margin-left: 40px;
@@ -61,6 +59,6 @@
 
 .see-all-btn:hover{
     background-color: #3f77d6;
-    
+    cursor: pointer;    
     
 }
